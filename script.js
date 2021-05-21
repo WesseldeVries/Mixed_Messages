@@ -22,7 +22,6 @@ const generateMessage = () => {
   document.getElementById('love').innerHTML = loveMessage;
   document.getElementById('money').innerHTML = moneyMessage;
   document.getElementById('consider').innerHTML = considerMessage;
-
 };
 
 generateMessage();
