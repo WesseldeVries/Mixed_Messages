@@ -15,9 +15,14 @@ const generateMessage = () => {
   const loveLife = pickWordFromArray(loveStatus);
   const moneyLife = pickWordFromArray(moneyStatus);
   const consideration = pickWordFromArray(considerThings);
-  console.log(`Today your love life will be characterised by ${loveLife}.`);
-  console.log(`Financially it will be a ${moneyLife} day for you.`);
-  console.log(`Consider paying extra attention to your ${consideration}!`);
+  const loveMessage = `Today your love life will be characterised by ${loveLife}.`;
+  const moneyMessage = `Financially it will be a ${moneyLife} day for you.`;
+  const considerMessage = `Consider paying extra attention to your ${consideration}!`;
+
+  document.getElementById('love').innerHTML = loveMessage;
+  document.getElementById('money').innerHTML = moneyMessage;
+  document.getElementById('consider').innerHTML = considerMessage;
+
 };
 
 generateMessage();
