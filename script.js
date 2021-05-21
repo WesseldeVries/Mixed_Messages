@@ -1,4 +1,4 @@
-const loveStatus = ['drama', 'success', 'surprises', 'struggles'];
+const loveStatus = ['drama', 'success', 'surprises', 'struggles', 'joy', 'connection', 'attraction', 'security'];
 const moneyStatus = ['great', 'fair', 'mediocre', 'bad'];
 const considerThings = ['outfit', 'friends', 'hobbies', 'work'];
 
